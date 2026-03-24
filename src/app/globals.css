@@ -1,26 +1,35 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: #B87333;
+  --color-primary-light: #D4956B;
+  --color-primary-dark: #96592A;
+  --color-accent: #7B9E6B;
+  --color-accent-light: #A3C293;
+  --color-cream: #FDF6EE;
+  --color-cream-dark: #F5EDE0;
+  --color-text-dark: #2D2016;
+  --color-text-body: #4A3728;
+  --color-text-light: #8B7355;
+  --color-white: #FFFFFF;
+  --color-status-available: #5A8F4A;
+  --color-status-reserved: #C4922A;
+  --color-status-sold: #8B8B8B;
+  --font-heading: Georgia, "Times New Roman", serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-cream);
+  color: var(--color-text-body);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-text-dark);
 }
