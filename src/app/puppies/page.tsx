@@ -25,8 +25,8 @@ export default function PuppiesPage() {
         {/* Litter info */}
         <section className="px-6 pb-12">
           <div className="mx-auto max-w-5xl rounded-xl bg-cream-dark p-6 text-center sm:p-8">
-            <h2 className="font-heading text-2xl font-bold">Current Litter — Rosie &times; Summit</h2>
-            <p className="mt-2 text-text-light">Born January 2026 &middot; 8 puppies</p>
+            <h2 className="font-heading text-2xl font-bold">Current Litter — Tansy &times; Summit</h2>
+            <p className="mt-2 text-text-light">Born February 7, 2026 &middot; 8 puppies</p>
           </div>
         </section>
 
