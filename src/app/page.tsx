@@ -2,7 +2,6 @@ import { Header } from "@/components/Header";
 import { Hero } from "@/components/sections/Hero";
 import { IntroSection } from "@/components/sections/IntroSection";
 import { FeaturedLitter } from "@/components/sections/FeaturedLitter";
-import { Testimonials } from "@/components/sections/Testimonials";
 import { TrustSignals } from "@/components/sections/TrustSignals";
 import { Footer } from "@/components/Footer";
 
@@ -14,7 +13,6 @@ export default function Home() {
         <Hero />
         <IntroSection />
         <FeaturedLitter />
-        <Testimonials />
         <TrustSignals />
       </main>
       <Footer />

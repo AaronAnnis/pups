@@ -18,9 +18,8 @@ export function IntroSection() {
               thrive in yours.
             </p>
             <p>
-              Every parent in our program undergoes comprehensive health testing —
-              OFA hips and elbows, cardiac and eye exams, and full Embark DNA
-              panels — so you can bring your puppy home with confidence. We breed
+              All puppies are DNA tested with a genetic health panel and veterinary
+              checked, so you can bring your puppy home with confidence. We breed
               for temperament first: the Border Collie's intelligence, the Golden
               Retriever's patience, and the Poodle's low-shedding coat, all in a
               dog that bonds deeply with its people.

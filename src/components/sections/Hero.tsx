@@ -10,8 +10,8 @@ export function Hero() {
             Keen Minds. <br className="hidden lg:block" />Kind Hearts.
           </h1>
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-text-body">
-            Our puppies blend three exceptional breeds — Border Collie, Golden
-            Retriever, and Poodle — into one remarkable companion. Sharp and
+            Our puppies blend three exceptional breeds — Golden Retriever,
+            Poodle, and Border Collie — into one remarkable companion. Sharp and
             trainable, gentle and patient, with a low-shedding coat and a heart
             built for family life. Raised with love from day one.
           </p>

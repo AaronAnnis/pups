@@ -9,7 +9,6 @@ export interface Dog {
   name: string;
   breed: string;
   role: "Dam" | "Sire";
-  dateOfBirth: string;
   weight: string;
   color: string;
   temperament: string[];
@@ -21,12 +20,11 @@ export interface Dog {
 export const dogs: Dog[] = [
   {
     id: "dog-1",
-    name: "Rosie",
-    breed: "Goldendoodle",
+    name: "Tansy",
+    breed: "Goldendoodle x Border Collie",
     role: "Dam",
-    dateOfBirth: "2023-04-12",
-    weight: "48 lbs",
-    color: "Golden",
+    weight: "45 lbs",
+    color: "Black",
     temperament: [
       "Gentle",
       "Affectionate",
@@ -46,22 +44,20 @@ export const dogs: Dog[] = [
         date: "2024-06-20",
       },
     ],
-    imageUrl: "/images/dogs/placeholder.jpg",
-    bio: "Rosie is the heart of our home — a loyal, loving girl who has never met a stranger. She's incredibly gentle with children and has a calm, nurturing presence that makes her an outstanding mother. When she's not snuggling on the couch, you'll find her splashing in the creek behind our property.",
+    imageUrl: "/images/dogs/tansy.jpeg",
+    bio: "Tansy is the heart of our home — a loyal, loving girl who has never met a stranger. She's incredibly gentle with children and has a calm, nurturing presence that makes her an outstanding mother. When she's not snuggling on the couch, you'll find her splashing in the creek behind our property.",
   },
   {
     id: "dog-2",
     name: "Summit",
-    breed: "Bordoodle (Border Collie / Goldendoodle)",
+    breed: "Goldendoodle",
     role: "Sire",
-    dateOfBirth: "2022-08-03",
-    weight: "54 lbs",
-    color: "Black and White",
+    weight: "65 lbs",
+    color: "Red",
     temperament: [
       "Intelligent",
       "Loyal",
       "Athletic",
-      "Calm",
       "Focused",
     ],
     healthTests: [
@@ -76,7 +72,7 @@ export const dogs: Dog[] = [
         date: "2024-04-05",
       },
     ],
-    imageUrl: "/images/dogs/placeholder.jpg",
-    bio: "Summit is a striking, athletic boy with the intelligence of a Border Collie and the easygoing warmth of a Goldendoodle. He's our adventure buddy — always ready for a hike or a swim — but equally happy to settle down for a quiet evening at home. His puppies consistently inherit his steady confidence and gentle nature.",
+    imageUrl: "/images/dogs/summit.jpeg",
+    bio: "Summit is a handsome, athletic boy with the warmth and eagerness to please that Goldendoodles are known for. He's our adventure buddy — always ready for a hike or a swim — but equally happy to settle down for a quiet evening at home. His puppies have inherited his steady confidence and gentle nature.",
   },
 ];
