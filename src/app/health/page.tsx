@@ -72,10 +72,13 @@ export default function HealthPage() {
           <div className="mx-auto max-w-3xl">
             <h2 className="font-heading text-2xl font-bold sm:text-3xl">Spay/Neuter Policy</h2>
             <p className="mt-4 leading-relaxed text-text-body">
-              All pet puppies are placed on limited AKC registration with a spay/neuter agreement.
-              We believe in responsible pet ownership and work with each family to determine the
-              best timing for their individual puppy, taking into account current veterinary
-              research on the health benefits of waiting until the dog is fully mature.
+              All pet puppies are placed with a spay/neuter agreement. Breeding rights for some
+              is a separate agreement and determined after much consideration. We believe in
+              responsible pet ownership and work with each family to determine the best timing for
+              neutering their individual puppy, taking into account current veterinary research on
+              the health benefits of waiting until the dog is fully mature. Raising a dog for family
+              life, for service or performance takes effort and patience and dedication. Having a
+              plan in place for your dog will help ensure a lifetime of happy memories.
             </p>
           </div>
         </section>
@@ -88,7 +91,7 @@ export default function HealthPage() {
               From the day they are born, our puppies are exposed to a rich variety of experiences.
               We follow a structured socialization protocol that includes household sounds, different
               surfaces and textures, gentle handling by adults and children, exposure to other
-              animals, car rides, and novel objects. By the time they go home at eight weeks, our
+              animals, car rides, and novel objects. By the time they go home at nine weeks, our
               puppies are confident, curious, and well-prepared for life in their new families.
             </p>
           </div>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 119.72 122.88">
+  <g transform="rotate(180, 59.86, 61.44)">
+  <!-- Top left toe -->
+  <circle cx="40" cy="32" r="18" fill="#E8A87C"/>
+  <!-- Top right toe -->
+  <circle cx="80" cy="32" r="18" fill="#E8A87C"/>
+  <!-- Side left toe -->
+  <circle cx="18" cy="56" r="16" fill="#E8A87C"/>
+  <!-- Side right toe -->
+  <circle cx="102" cy="56" r="16" fill="#E8A87C"/>
+  <!-- Main pad -->
+  <path fill="#E8A87C" d="M60,122 C60,122,20,95,20,75 C20,60,35,55,45,60 C52,64,57,70,60,76 C63,70,68,64,75,60 C85,55,100,60,100,75 C100,95,60,122,60,122z" transform="rotate(180, 60, 88.5)"/>
+  </g>
+</svg>
