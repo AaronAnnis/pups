@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    container_name: pups
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    networks:
+      - webhost
+
+networks:
+  webhost:
+    external: true
