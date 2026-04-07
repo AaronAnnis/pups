@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export function IntroSection() {
@@ -39,9 +40,14 @@ export function IntroSection() {
           </Link>
         </div>
 
-        {/* Image placeholder */}
-        <div className="flex aspect-[4/3] items-center justify-center rounded-2xl bg-cream-dark text-text-light">
-          <span className="text-lg font-medium">Photo Coming Soon</span>
+        {/* Image */}
+        <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
+          <Image
+            src="/images/goose-river.jpg"
+            alt="Goose River valley"
+            fill
+            className="object-cover"
+          />
         </div>
       </div>
     </section>
