@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export function Hero() {
@@ -31,9 +32,15 @@ export function Hero() {
           </div>
         </div>
 
-        {/* Image placeholder */}
-        <div className="flex aspect-[4/3] items-center justify-center rounded-2xl bg-cream text-text-light lg:aspect-square">
-          <span className="text-lg font-medium">Photo Coming Soon</span>
+        {/* Image */}
+        <div className="relative aspect-[4/3] overflow-hidden rounded-2xl lg:aspect-square">
+          <Image
+            src="/paw.png"
+            alt="Puppy paw"
+            fill
+            className="object-cover"
+            priority
+          />
         </div>
       </div>
     </section>
