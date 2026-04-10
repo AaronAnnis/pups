@@ -46,7 +46,7 @@ export function IntroSection() {
             src="/images/goose-river.jpg"
             alt="Goose River valley"
             fill
-            className="object-cover"
+            className="object-cover object-bottom"
           />
         </div>
       </div>
