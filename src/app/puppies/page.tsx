@@ -9,7 +9,7 @@ const steps = [
   { label: "Approved", description: "We review your application and schedule a call to get to know you better." },
   { label: "Deposit", description: "Place a deposit to secure your spot on our waitlist." },
   { label: "Matched", description: "We help match you with the perfect puppy based on temperament and fit." },
-  { label: "Go Home", description: "Your puppy comes home at 8 weeks, fully vetted and ready to join your family." },
+  { label: "Go Home", description: "Your puppy comes home at 9 weeks, fully vetted and ready to join your family." },
 ];
 
 export default function PuppiesPage() {

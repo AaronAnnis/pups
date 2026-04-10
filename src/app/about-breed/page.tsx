@@ -20,7 +20,7 @@ const sections = [
   },
   {
     title: "Coat & Grooming",
-    body: `One of the great advantages of this cross is a low to minimal shedding coat — curlier coats shed less, and most of our puppies are allergy-friendly. Their hair sometimes grows continuously, and as with all dogs, regular grooming is essential. Plan on brushing two to three times per week at minimum (daily for curlier coats) and professional grooming every six to eight weeks. Pay special attention to areas prone to matting — behind the ears, in the armpits, and around the collar. Because their floppy ears can trap moisture, regular ear cleaning is also important to prevent infections.`,
+    body: `One of the great advantages of this cross is a low to minimal shedding coat — curlier coats shed less, and most of our puppies are allergy-friendly. Their hair sometimes grows continuously, and as with all dogs, regular grooming is essential. Plan on brushing two to three times per week at minimum (daily for curlier coats) and professional grooming every six to nine weeks. Pay special attention to areas prone to matting — behind the ears, in the armpits, and around the collar. Because their floppy ears can trap moisture, regular ear cleaning is also important to prevent infections.`,
   },
   {
     title: "Why This Cross",

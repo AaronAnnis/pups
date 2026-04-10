@@ -8,7 +8,7 @@ const steps = [
   { number: 3, title: "Approved", description: "If approved, you'll be invited to place a deposit" },
   { number: 4, title: "Deposit", description: "$500 non-refundable deposit to secure your spot" },
   { number: 5, title: "Matched", description: "We'll match you with the perfect puppy" },
-  { number: 6, title: "Go Home", description: "Your puppy comes home at 8 weeks" },
+  { number: 6, title: "Go Home", description: "Your puppy comes home at 9 weeks" },
 ];
 
 export default function ApplyPage() {
