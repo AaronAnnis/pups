@@ -176,10 +176,16 @@ export function ApplicationForm() {
 
     setStatus("submitting");
     try {
-      const res = await fetch("/api/apply", {
+      const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({
+          access_key: "c08b7781-24ca-41f3-b625-71f5acbc68bc",
+          subject: `New Puppy Application — ${form.fullName}`,
+          from_name: "Goose River Canine Co.",
+          to: "hello@gooserivercanine.com",
+          ...form,
+        }),
       });
       if (!res.ok) throw new Error("Failed to submit");
       setStatus("success");

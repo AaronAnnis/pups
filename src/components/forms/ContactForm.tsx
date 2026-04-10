@@ -25,17 +25,32 @@ export function ContactForm() {
     return newErrors;
   }
 
-  function handleSubmit(e: FormEvent) {
+  async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     const newErrors = validate();
     setErrors(newErrors);
     if (Object.keys(newErrors).length > 0) return;
 
     setSubmitting(true);
-    setTimeout(() => {
-      setSubmitting(false);
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          access_key: "c08b7781-24ca-41f3-b625-71f5acbc68bc",
+          subject: `Contact Form — ${formData.name}`,
+          from_name: "Goose River Canine Co.",
+          to: "hello@gooserivercanine.com",
+          ...formData,
+        }),
+      });
+      if (!res.ok) throw new Error("Failed to send");
       setSubmitted(true);
-    }, 1000);
+    } catch {
+      setErrors({ form: "Something went wrong. Please try again." });
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   if (submitted) {
