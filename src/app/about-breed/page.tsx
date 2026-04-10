@@ -51,12 +51,6 @@ export default function AboutBreedPage() {
               <h2 className="font-heading text-2xl font-bold sm:text-3xl">{section.title}</h2>
               <p className="mt-4 leading-relaxed text-text-body">{section.body}</p>
 
-              {/* Image placeholder between some sections */}
-              {(i === 1 || i === 3) && (
-                <div className="mt-8 flex h-56 items-center justify-center rounded-xl bg-cream-dark/60 sm:h-72">
-                  <span className="text-sm text-text-light">Photo coming soon</span>
-                </div>
-              )}
             </div>
           </section>
         ))}

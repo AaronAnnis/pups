@@ -170,14 +170,22 @@ export function ApplicationForm() {
     return Object.keys(newErrors).length === 0;
   }
 
-  function handleSubmit(e: FormEvent) {
+  async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     if (!validate()) return;
 
     setStatus("submitting");
-    setTimeout(() => {
+    try {
+      const res = await fetch("/api/apply", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (!res.ok) throw new Error("Failed to submit");
       setStatus("success");
-    }, 1500);
+    } catch {
+      setStatus("error");
+    }
   }
 
   if (status === "success") {

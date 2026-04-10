@@ -18,4 +18,5 @@ jobs:
           script: |
             cd /srv/webhost/sites/pups
             git pull origin main
+            echo "RESEND_API_KEY=${{ secrets.RESEND_API_KEY }}" > .env.local
             rebuild-site pups
