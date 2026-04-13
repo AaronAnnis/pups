@@ -39,7 +39,7 @@ export default function HealthPage() {
           <div className="mx-auto max-w-3xl">
             <h2 className="font-heading text-2xl font-bold sm:text-3xl">Health Testing Protocol</h2>
             <p className="mt-4 leading-relaxed text-text-body">
-              Every parent dog in our program undergoes health testing before
+              Every parent dog in our program undergoes genetic health testing before
               being considered for breeding. Here&apos;s what we test and why it matters:
             </p>
             <div className="mt-8 space-y-6">
