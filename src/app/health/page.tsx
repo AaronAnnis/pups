@@ -59,10 +59,10 @@ export default function HealthPage() {
             <h2 className="font-heading text-2xl font-bold sm:text-3xl">Health Guarantee</h2>
             <p className="mt-4 leading-relaxed text-text-body">
               Every puppy we place comes with a written health guarantee that covers genetic
-              conditions for two years. We stand behind our breeding program and our dogs. If a
-              genetic health issue arises, we work with you to make it right. Beyond the guarantee
-              period, we offer lifetime breeder support — we are always here for you and your dog,
-              no matter how many years go by.
+              conditions. We stand behind our breeding program and our dogs. If a genetic health
+              issue arises, we work with you to make it right. Beyond the genetic guarantee, we
+              offer lifetime breeder support — we are always here for you and your dog, no matter
+              how many years go by.
             </p>
           </div>
         </section>
@@ -91,8 +91,8 @@ export default function HealthPage() {
               From the day they are born, our puppies are exposed to a rich variety of experiences.
               We follow a structured socialization protocol that includes household sounds, different
               surfaces and textures, gentle handling by adults and children, exposure to other
-              animals, car rides, and novel objects. By the time they go home at nine weeks, our
-              puppies are confident, curious, and well-prepared for life in their new families.
+              animals, car rides, and novel objects. By the time they go home at 9 to 12 weeks old,
+              our puppies are confident, curious, and well-prepared for life in their new families.
             </p>
           </div>
         </section>
