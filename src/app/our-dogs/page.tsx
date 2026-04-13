@@ -12,7 +12,7 @@ export default function OurDogsPage() {
           <div className="text-center">
             <h1 className="font-heading text-4xl font-bold sm:text-5xl">Our Dogs</h1>
             <p className="mt-4 text-lg text-text-light">
-              Meet the parents behind our exceptional puppies
+              Discover what makes our Goldendoodle/Border Collie cross such an extraordinary companion.
             </p>
           </div>
 

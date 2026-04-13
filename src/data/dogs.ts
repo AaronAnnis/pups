@@ -23,7 +23,7 @@ export const dogs: Dog[] = [
     name: "Tansy",
     breed: "Goldendoodle x Border Collie",
     role: "Dam",
-    weight: "45 lbs",
+    weight: "40 lbs",
     color: "Black",
     temperament: [
       "Gentle",
@@ -52,7 +52,7 @@ export const dogs: Dog[] = [
     name: "Summit",
     breed: "Goldendoodle",
     role: "Sire",
-    weight: "65 lbs",
+    weight: "60 lbs",
     color: "Red",
     temperament: [
       "Intelligent",
