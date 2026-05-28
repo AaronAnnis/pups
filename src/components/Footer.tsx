@@ -59,10 +59,10 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:+12073901366"
+                  href="tel:+13087370944"
                   className="transition-colors hover:text-[#B87333]"
                 >
-                  (207) 390-1366
+                  (308) 737-0944
                 </a>
               </li>
               <li>Goose River Valley</li>
