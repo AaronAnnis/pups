@@ -92,7 +92,7 @@ export const puppies: Puppy[] = [
     name: "Coal",
     gender: "Male",
     color: "Black",
-    status: "Available",
+    status: "Sold",
     personality:
       "Gentle and observant, Coal has an old soul. He's content to sit quietly by your side and seems to understand every word you say.",
     imageUrl: "/images/puppies/puppy-8-1.png",
