@@ -48,7 +48,7 @@ export const puppies: Puppy[] = [
     name: "River",
     gender: "Male",
     color: "Black with White",
-    status: "Available",
+    status: "Sold",
     personality:
       "Calm and easygoing, River is happiest when he's near his people. He picks up on routines quickly and has a wonderfully mellow temperament.",
     imageUrl: "/images/puppies/puppy-4-1.png",
